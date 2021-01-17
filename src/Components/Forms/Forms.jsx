@@ -21,17 +21,17 @@ export class Forms extends React.Component {
             <div className={s.wrapper}>
                 <div className={s.inputs}>
                     <label >
-                        Enter contact's name
+                        <p>Enter contact's name</p>
                         <input  placeholder={'Brad'} type="text" value={this.state.name}
                                 onChange={this.changeInput('name')}/>
                     </label>
                     <label >
-                        Enter contact's surname
+                        <p>Enter contact's surname</p>
                         <input placeholder={'Pitt'} type="text" value={this.state.surname}
                                onChange={this.changeInput('surname')}/>
                     </label>
                     <label >
-                        Enter contact's phone
+                        <p>Enter contact's phone</p>
                         <input placeholder={'+38 097 111 111 1'} type="tel" value={this.state.phone}
                                onChange={this.changeInput('phone')}/>
                     </label>

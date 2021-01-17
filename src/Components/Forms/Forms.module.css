@@ -1,17 +1,38 @@
 .wrapper {
-  background-color: red;
+  background-color: black;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  padding: 20px; }
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px; }
   .wrapper .buttons {
     display: flex;
     justify-content: space-around; }
+    .wrapper .buttons button {
+      padding: 2px 15px;
+      min-width: 70px;
+      text-align: center;
+      font-weight: bold;
+      background-color: orange;
+      border: none;
+      border-radius: 2px; }
   .wrapper .inputs {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 10px; }
+    .wrapper .inputs label {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .wrapper .inputs label p {
+        margin: 0;
+        padding: 0; }
     .wrapper .inputs input {
-      margin-bottom: 10px;
-      display: block; }
+      margin: 3px 0 10px 0;
+      display: block;
+      border-radius: 2px;
+      border: none; }
 
 /*# sourceMappingURL=Forms.module.css.map */
