@@ -1,13 +1,53 @@
+import React from "react";
+import s from './App.module.sass'
+import {Contacts} from "./Components/Contacts/Contacts";
+import {Forms} from "./Components/Forms/Forms";
 
-import './App.sass';
 
+export class App extends React.Component {
+    state = {
+        contacts: [],
+        showForm: false,
+    }
 
-function App() {
-  return (
-    <div className="App">
-    <Contacts/>
-    </div>
-  );
+    constructor(props) {
+        super(props);
+
+        this.toggleForm = this.toggleForm.bind(this)
+    }
+
+    render() {
+        const {showForm} = this.state
+        return (
+            <div className={s.App}>
+                <Contacts contacts={this.state.contacts}/>
+                {showForm ? <Forms addContact={(contact) => this.addContact(contact)}
+                                   hideForm={() => this.hideForm()}/> : null}
+
+                {!showForm ? <button onClick={this.toggleForm}> Add contact</button> : null}
+            </div>
+        )
+    }
+
+    hideForm() {
+        this.setState({
+            showForm: false
+        })
+    }
+
+    toggleForm() {
+        this.setState({
+            showForm: !this.state.showForm
+        })
+    }
+
+    addContact(contact) {
+        this.setState({
+            contacts: [...this.state.contacts,contact]
+        })
+    }
+
 }
 
-export default App;
+
+
