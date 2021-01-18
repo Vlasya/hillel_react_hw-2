@@ -32,7 +32,8 @@
     .wrapper .inputs input {
       margin: 3px 0 10px 0;
       display: block;
-      border-radius: 2px;
-      border: none; }
+      border-radius: 2px; }
+      .wrapper .inputs input.hide {
+        border: 1px solid red; }
 
 /*# sourceMappingURL=Forms.module.css.map */

@@ -3,7 +3,6 @@ import s from './Contacts.module.sass'
 
 
 export const Contacts = (props) => {
-    console.log(props.contacts)
     // let td= `<tr`
     const contact = props.contacts.map((contact, index) =>
         <tr key={index}>

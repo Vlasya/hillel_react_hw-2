@@ -5,22 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.sass-cache/a8b278bb0bc36cb112abf16345df58abe9564ff4/App.module.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/src/.sass-cache/a8b278bb0bc36cb112abf16345df58abe9564ff4/App.module.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.sass-cache/a8b278bb0bc36cb112abf16345df58abe9564ff4/index.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/src/.sass-cache/a8b278bb0bc36cb112abf16345df58abe9564ff4/index.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/.sass-cache/6cff3ecb1acd4977166c4fafb63b07511eb65433/Contacts.module.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/.sass-cache/6cff3ecb1acd4977166c4fafb63b07511eb65433/Contacts.module.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Forms/.sass-cache/c407d896872fddf425251dabc3da87340c7ef475/Forms.module.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Forms/.sass-cache/c407d896872fddf425251dabc3da87340c7ef475/Forms.module.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Forms/Forms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Forms/Forms.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Forms/Forms.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Forms/Forms.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Forms/Forms.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Forms/Forms.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Forms/Forms.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Forms/Forms.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hillel_react/hillel_hw_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,7 +64,8 @@
       <workItem from="1610827355371" duration="12271000" />
       <workItem from="1610877967527" duration="4654000" />
       <workItem from="1610886194507" duration="163000" />
-      <workItem from="1610889872431" duration="16388000" />
+      <workItem from="1610889872431" duration="16885000" />
+      <workItem from="1610982716473" duration="12383000" />
     </task>
     <servers />
   </component>

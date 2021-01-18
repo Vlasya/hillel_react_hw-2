@@ -20,11 +20,13 @@ export class App extends React.Component {
         const {showForm} = this.state
         return (
             <div className={s.App}>
-                <Contacts contacts={this.state.contacts}/>
-                {showForm ? <Forms addContact={(contact) => this.addContact(contact)}
-                                   hideForm={() => this.hideForm()}/> : null}
+                <div className={s.wrapper}>
+                    <Contacts contacts={this.state.contacts}/>
+                    {showForm ? <Forms addContact={(contact) => this.addContact(contact)}
+                                       hideForm={() => this.hideForm()}/> : null}
 
-                {!showForm ? <button onClick={this.toggleForm}> Add contact</button> : null}
+                    {!showForm ? <button onClick={this.toggleForm}> Add contact</button> : null}
+                </div>
             </div>
         )
     }
@@ -43,7 +45,7 @@ export class App extends React.Component {
 
     addContact(contact) {
         this.setState({
-            contacts: [...this.state.contacts,contact]
+            contacts: [...this.state.contacts, contact]
         })
     }
 

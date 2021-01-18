@@ -1,4 +1,5 @@
 .App {
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +9,11 @@
   border-radius: 5px;
   background-color: black;
   padding: 5px; }
+  .App .wrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .App button {
     align-self: start;
     padding: 2px 15px;
